@@ -70,6 +70,58 @@
     
 }
 
+.overflow-hide{
+    overflow: hidden;
+  
+}
+
+.image-animation{
+    transition: all 1s ease;
+}
+
+
+.image-animation:hover{
+    transform: scale(1.1);
+}
+
+
+
+.image{
+    position: relative;
+    transition: 1s ease;
+}
+
+.image:hover .icons{
+    bottom: 40px;
+}
+
+.icons{
+    text-align: center;
+    position: absolute;
+    bottom: -34px;
+    left: 20%;
+    transition: 1s ease-in-out;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+ 
+}   
+.icons:hover{
+    margin-top: -40px;
+}
+
+.social-icons{
+    height: 40px;
+    width: 40px;
+    background: white;
+    padding: 10px 10px 10px 10px;
+    display: inline;
+  
+}
+   
+
+
+
+
+
 
 /* second shop section start */
 
@@ -123,8 +175,34 @@
 .pet-shop{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
     
   
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.secure{
+    background: url('./images/bg3.jpg'); 
+    height: 50vh;
+    display: flex;
+    
+    
+     
+}
+
+.secure-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+    
 }
 
 
@@ -172,8 +250,14 @@
     .partner{
         grid-template-columns: 3fr 3fr;
     }
-  
-  
+    .pet-shop{
+        grid-template-columns: 1fr;
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+  .font-smd{
+      font-size: 25px;
+  }
 
 }
 
@@ -181,4 +265,5 @@
     .grid-4{
         grid-template-columns: 1fr;
     }
+    
 }
