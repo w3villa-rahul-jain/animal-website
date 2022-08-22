@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alata', sans-serif;
+}
+
+.mr-25{
+    margin-right: 25px;
+}
+
+
+.fa-star{
+    color: goldenrod;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.pb-30{
+    padding-bottom: 30px;
+}
+
+.pb-75{
+    padding-bottom: 75px;
+}
+
+.px-12{
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.py-20{
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.main-section{
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    
+     
+}
+
+.big-image{
+    width: 100%;
+}
+
+.quality-image{
+    width: 100%;
+    
+}
+
+.small-images-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 15px;
+    
+}
+
+
+/* second shop section start */
+
+.heading-style{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.heading-3{
+    padding-top: 15px;
+}
+
+.product-card{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding-top: 75px;
+}
+
+.card-item{
+    border: 1px solid white;
+    box-shadow: 0  0  2px black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 10px 10px 15px 10px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* border: 1px solid blue; */
+}
+
+.partner{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    border: 1px solid black;
+}
+
+.partner-image{
+    border-right: 1px solid black;
+    padding: 20px 25px;
+}
+
+.partner-image:nth-child(){
+    border-right: none;
+}
+
+.pet-shop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px){
+    .main-section{
+        grid-template-columns: 1fr;
+        padding-top: 60px;
+    }
+    
+    .container{
+       margin-left: 0;
+       margin-right: 0;
+    }
+
+    .big-image{
+    padding-left: 12px;
+    padding-right: 12px;  
+    margin: 0px; 
+    padding-bottom: 10px; 
+    }
+
+    .grid-4{
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid-4-item{
+        margin-left: 12px;
+        margin-right: 12px;
+        margin-bottom: 20px;
+    }
+    .partner{
+        grid-template-columns: 3fr 3fr;
+    }
+  
+  
+
+}
+
+@media (max-width: 425px){
+    .grid-4{
+        grid-template-columns: 1fr;
+    }
+}
