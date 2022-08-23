@@ -34,8 +34,15 @@
     <div class="main-section container">
         <div class="big-image px-12">
             <img src="./images/banner6.jpg" alt="" width="100%">
+            <div class="image-content">
+                <h4>The Best</h4>
+                <h1>Food For<br>Your Dog</h1>
+                <p class="banner-para">Delicious food made with love</p>
+                <button class="shop-now">Shop Now</button>
+            </div>
 
         </div>
+        
         <div class="small-images-grid px-12">
             <div class="quality-image overflow-hide">
                 <img src="./images/banner4.jpg" alt="" width="100%" class="image-animation">
@@ -47,8 +54,8 @@
     </div>
 
     <div class="pt-100">
-        <h1 class="heading-style">Shop by Categories</h1>
-        <div class="owl-theme  container">
+        <h1 class="heading-style font-smd">Shop by Categories</h1>
+        <div class="owl-theme owl-button container">
             <div class="product-card owl-carousel">
             <div class="card-item">
                 <img src="./images/categories1.jpg" alt="" width="100%">
@@ -78,8 +85,13 @@
                 <img src="./images/categories1.jpg" alt="" width="100%">
                 <h3 class="text-center heading-3">Shop</h3>
             </div>
-            
+
            </div>
+           <div class="owl-navigation">
+            <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
+            <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
+            </div>
+
         </div>
     </div>
 
@@ -410,22 +422,22 @@
            <div class="secure">
         <div class="secure-icons">
             <img src="./images/icon1.png" alt="" width="30%" class="py-20">
-            <h2>Best Collection</h2>
+            <span>Best Collection</span>
         </div>
 
         <div class="secure-icons">
             <img src="./images/icon2.png" alt="" width="30%" class="py-20">
-            <h2>Best Collection</h2>
+            <span>Best Collection</span>
         </div>
 
         <div class="secure-icons">
             <img src="./images/icon3.png" alt="" width="30%" class="py-20">
-            <h2>Best Collection</h2>
+            <span>Best Collection</span>
         </div>
 
         <div class="secure-icons">
             <img src="./images/icon4.png" alt="" width="30%" class="py-20">
-            <h2>Best Collection</h2>
+            <span>Best Collection</span>
         </div>
 
     </div>
@@ -596,6 +608,7 @@
         autoplay: true,
         autoplayTimeout: 2000,
         dots: false,
+        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
         responsive: {
           0: {
             items: 2,

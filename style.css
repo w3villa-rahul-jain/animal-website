@@ -49,13 +49,39 @@
 .main-section{
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr;   
+}
+
+
+
+.image-content{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 35px;
+    color: white;
     
-     
+}
+
+.banner-para{
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.shop-now{
+    margin-top: 30px;
+    padding: 12px 24px;
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background: black;
+    color: white;
 }
 
 .big-image{
     width: 100%;
+    position: relative;
 }
 
 .quality-image{
@@ -76,7 +102,7 @@
 }
 
 .image-animation{
-    transition: all 1s ease;
+    transition: all .4s ease;
 }
 
 
@@ -88,7 +114,7 @@
 
 .image{
     position: relative;
-    transition: 1s ease;
+    transition: .3s ease;
 }
 
 .image:hover .icons{
@@ -100,7 +126,7 @@
     position: absolute;
     bottom: -34px;
     left: 20%;
-    transition: 1s ease-in-out;
+    transition: .4s ease-in-out;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
  
 }   
@@ -140,6 +166,42 @@
     grid-template-columns: repeat(5, 1fr);
     padding-top: 75px;
 }
+
+.owl-nav .owl-nav-prev{
+    background: transparent;
+    font-size: 32px;
+}
+
+ .owl-nav{
+    position: absolute;
+     bottom: -50px;
+    outline: none;
+    margin: 0px auto;
+    width: 100%;
+}
+
+
+
+
+.owl-nav{
+    position: absolute;
+    top: 40%;
+    outline: none;
+    border-radius: 50px; 
+}
+
+.owl-nav-prev{
+    position: absolute;
+    left: 0px;   
+}
+
+.owl-nav-next{
+    position: absolute;
+    right: 0px;  
+}
+
+
+
 
 .card-item{
     border: 1px solid white;
@@ -187,22 +249,19 @@
 
 .secure{
     background: url('./images/bg3.jpg'); 
-    height: 50vh;
-    display: flex;
-    
-    
+    display: flex;   
      
 }
 
 .secure-icons{
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25%;
     flex-direction: column;
     flex-wrap: wrap;
-   
-    
 }
 
 
@@ -258,6 +317,32 @@
   .font-smd{
       font-size: 25px;
   }
+  .grid-3{
+    grid-template-columns: 1fr;
+}
+.secure{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.image-content{
+    font-size: 15px;
+}
+.banner-para{
+    font-size: 13px;
+    padding-top: 10px;
+}
+.shop-now{
+    margin-top: 5px;
+    padding: 6px 12px;
+    font-size: 12px;
+    border-radius: 10px;
+   
+}
+
+
+
 
 }
 
@@ -265,5 +350,9 @@
     .grid-4{
         grid-template-columns: 1fr;
     }
+    .icons{
+        left: 10%;
+    }
+    
     
 }
