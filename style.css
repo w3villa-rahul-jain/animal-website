@@ -1,74 +1,69 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Alata', sans-serif;
 }
 
-.mr-25{
+.mr-25 {
     margin-right: 25px;
 }
 
-
-.fa-star{
+.fa-star {
     color: goldenrod;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-.pt-100{
+.pt-100 {
     padding-top: 100px;
 }
 
-.pb-30{
+.pb-30 {
     padding-bottom: 30px;
 }
 
-.pb-75{
+.pb-75 {
     padding-bottom: 75px;
 }
 
-.px-12{
+.px-12 {
     padding-left: 12px;
     padding-right: 12px;
 }
 
-.py-20{
+.py-20 {
     padding-top: 12px;
     padding-bottom: 12px;
 }
 
-.container{
+.container {
     margin-left: 40px;
     margin-right: 40px;
 }
 
-
-.main-section{
+.main-section {
     padding-top: 100px;
     display: grid;
-    grid-template-columns: 2fr 1fr;   
+    grid-template-columns: 2fr 1fr;
 }
 
-
-
-.image-content{
+.image-content {
     position: absolute;
     top: 10%;
     left: 10%;
     font-size: 35px;
     color: white;
-    
 }
 
-.banner-para{
+.banner-para {
     padding-top: 20px;
     font-size: 20px;
 }
 
-.shop-now{
+.shop-now {
     margin-top: 30px;
     padding: 12px 24px;
     font-size: 15px;
@@ -79,181 +74,158 @@
     color: white;
 }
 
-.big-image{
+.big-image {
     width: 100%;
     position: relative;
 }
 
-.quality-image{
+.quality-image {
     width: 100%;
-    
 }
 
-.small-images-grid{
+.small-images-grid {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 15px;
-    
 }
 
-.overflow-hide{
+.overflow-hide {
     overflow: hidden;
-  
 }
 
-.image-animation{
+.image-animation {
     transition: all .4s ease;
 }
 
-
-.image-animation:hover{
+.image-animation:hover {
     transform: scale(1.1);
 }
 
-
-
-.image{
+.image {
     position: relative;
     transition: .3s ease;
 }
 
-.image:hover .icons{
+.image:hover .icons {
     bottom: 40px;
 }
 
-.icons{
+.icons {
     text-align: center;
     position: absolute;
     bottom: -34px;
     left: 20%;
     transition: .4s ease-in-out;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
- 
-}   
-.icons:hover{
+}
+
+.icons:hover {
     margin-top: -40px;
 }
 
-.social-icons{
+.social-icons {
     height: 40px;
     width: 40px;
     background: white;
     padding: 10px 10px 10px 10px;
     display: inline;
-  
 }
-   
-
-
-
-
 
 
 /* second shop section start */
 
-.heading-style{
+.heading-style {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
 }
 
-.heading-3{
+.heading-3 {
     padding-top: 15px;
 }
 
-.product-card{
+.product-card {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     padding-top: 75px;
 }
 
-.owl-nav .owl-nav-prev{
+.owl-nav .owl-nav-prev {
     background: transparent;
     font-size: 32px;
 }
 
- .owl-nav{
+.owl-nav {
     position: absolute;
-     bottom: -50px;
+    bottom: -50px;
     outline: none;
     margin: 0px auto;
     width: 100%;
 }
 
-
-
-
-.owl-nav{
+.owl-nav {
     position: absolute;
     top: 40%;
     outline: none;
-    border-radius: 50px; 
+    border-radius: 50px;
 }
 
-.owl-nav-prev{
+.owl-nav-prev {
     position: absolute;
-    left: 0px;   
+    left: 0px;
 }
 
-.owl-nav-next{
+.owl-nav-next {
     position: absolute;
-    right: 0px;  
+    right: 0px;
 }
 
-
-
-
-.card-item{
+.card-item {
     border: 1px solid white;
-    box-shadow: 0  0  2px black;
+    box-shadow: 0 0 2px black;
     margin-top: 10px;
     margin-bottom: 25px;
     padding: 10px 10px 15px 10px;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
-    
 }
 
-.grid-4{
+.grid-4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* border: 1px solid blue; */
 }
 
-.partner{
+.partner {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     border: 1px solid black;
 }
 
-.partner-image{
+.partner-image {
     border-right: 1px solid black;
     padding: 20px 25px;
 }
 
-.partner-image:nth-child(){
+.partner-image:nth-child() {
     border-right: none;
 }
 
-.pet-shop{
+.pet-shop {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    
-  
 }
 
-.grid-3{
+.grid-3 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-.secure{
-    background: url('./images/bg3.jpg'); 
-    display: flex;   
-     
+.secure {
+    background: url('./images/bg3.jpg');
+    display: flex;
 }
 
-.secure-icons{
+.secure-icons {
     padding-top: 40px;
     padding-bottom: 40px;
     display: flex;
@@ -264,95 +236,68 @@
     flex-wrap: wrap;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 768px){
-    .main-section{
+@media (max-width: 768px) {
+    .main-section {
         grid-template-columns: 1fr;
         padding-top: 60px;
     }
-    
-    .container{
-       margin-left: 0;
-       margin-right: 0;
+    .container {
+        margin-left: 0;
+        margin-right: 0;
     }
-
-    .big-image{
-    padding-left: 12px;
-    padding-right: 12px;  
-    margin: 0px; 
-    padding-bottom: 10px; 
+    .big-image {
+        padding-left: 12px;
+        padding-right: 12px;
+        margin: 0px;
+        padding-bottom: 10px;
     }
-
-    .grid-4{
+    .grid-4 {
         grid-template-columns: 1fr 1fr;
     }
-    .grid-4-item{
+    .grid-4-item {
         margin-left: 12px;
         margin-right: 12px;
         margin-bottom: 20px;
     }
-    .partner{
+    .partner {
         grid-template-columns: 3fr 3fr;
     }
-    .pet-shop{
+    .pet-shop {
         grid-template-columns: 1fr;
         margin-right: 12px;
         margin-left: 12px;
     }
-  .font-smd{
-      font-size: 25px;
-  }
-  .grid-3{
-    grid-template-columns: 1fr;
-}
-.secure{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-}
-.image-content{
-    font-size: 15px;
-}
-.banner-para{
-    font-size: 13px;
-    padding-top: 10px;
-}
-.shop-now{
-    margin-top: 5px;
-    padding: 6px 12px;
-    font-size: 12px;
-    border-radius: 10px;
-   
-}
-
-
-
-
-}
-
-@media (max-width: 425px){
-    .grid-4{
+    .font-smd {
+        font-size: 25px;
+    }
+    .grid-3 {
         grid-template-columns: 1fr;
     }
-    .icons{
+    .secure {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-content {
+        font-size: 15px;
+    }
+    .banner-para {
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .shop-now {
+        margin-top: 5px;
+        padding: 6px 12px;
+        font-size: 12px;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .grid-4 {
+        grid-template-columns: 1fr;
+    }
+    .icons {
         left: 10%;
     }
-    
-    
 }
