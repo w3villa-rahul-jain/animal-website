@@ -61,6 +61,11 @@
     margin-right: 40px;
 }
 
+.container-50{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 
 /* navbar */
 
@@ -342,6 +347,8 @@ li{
 .secure {
     background: url('./images/bg3.jpg');
     display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .secure-icons {
