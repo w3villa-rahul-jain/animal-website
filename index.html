@@ -18,6 +18,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
 
+    <script type="module" crossorigin src="./js/main.js"></script>
+    <!-- <link rel="modulepreload" href="./js/vender.js" /> -->
+    <link rel="stylesheet" href="./style/style1.css" />
+  
+
  </head>
 
 <body>
@@ -45,6 +50,114 @@
           <a href="#" class="icon"><i class="fa-solid fa-truck-fast"></i></a>
          </div>
       </nav>
+
+
+
+      <section>
+
+        <div id="app">
+            <!-- Fashion slider container -->
+            <div class="fashion-slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <!-- configure slide color with "data-slide-bg-color" attribute -->
+                  <div class="swiper-slide" data-slide-bg-color="#A8B49C">
+                    <!-- slide title wrap -->
+                    <div class="fashion-slider-title" data-swiper-parallax="-130%">
+                      <!-- slide title text -->
+                      <div class="fashion-slider-title-text">Provide the best Quality</div>
+                    </div>
+                    <!-- slide image wrap -->
+                    <div class="fashion-slider-scale">
+                      <!-- slide image -->
+                      <img src="./images/amy-baugess-MNju0A6EeE0-unsplash.jpg" />
+                    </div>
+                  </div>
+                  <!-- configure slide color with "data-slide-bg-color" attribute -->
+                  <div class="swiper-slide" data-slide-bg-color="#ded8d8">
+                    <!-- slide title wrap -->
+                    <div class="fashion-slider-title" data-swiper-parallax="-130%">
+                      <!-- slide title text -->
+                      <div class="fashion-slider-title-text">Best Quality</div>
+                    </div>
+                    <!-- slide image wrap -->
+                    <div class="fashion-slider-scale">
+                      <!-- slide image -->
+                      <img src="./images/tran-mau-tri-tam-FbhNdD1ow2g-unsplash.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide" data-slide-bg-color="#747677">
+                    <!-- slide title wrap -->
+                    <div class="fashion-slider-title" data-swiper-parallax="-130%">
+                      <!-- slide title text -->
+                      <div class="fashion-slider-title-text">Valueable Products</div>
+                    </div>
+                    <!-- slide image wrap -->
+                    <div class="fashion-slider-scale">
+                      <!-- slide image -->
+                      <img src="./images/justin-veenema-NH1d0xX6Ldk-unsplash.jpg" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide" data-slide-bg-color="#a7adac">
+                    <!-- slide title wrap -->
+                    <div class="fashion-slider-title" data-swiper-parallax="-130%">
+                      <!-- slide title text -->
+                      <div class="fashion-slider-title-text">Enjoy time Together</div>
+                    </div>
+                    <!-- slide image wrap -->
+                    <div class="fashion-slider-scale">
+                      <!-- slide image -->
+                      <img src="./images/lloyd-henneman-mBRfYA0dYYE-unsplash.jpg" />
+                    </div>
+                  </div>
+                  <!-- configure slide color with "data-slide-bg-color" attribute -->
+                  <div class="swiper-slide" data-slide-bg-color="#526763">
+                    <!-- slide title wrap -->
+                    <div class="fashion-slider-title" data-swiper-parallax="-130%">
+                      <!-- slide title text -->
+                      <div class="fashion-slider-title-text">Great new addition</div>
+                    </div>
+                    <!-- slide image wrap -->
+                    <div class="fashion-slider-scale">
+                      <!-- slide image -->
+                      <img src="./images/pauline-loroy-U3aF7hgUSrk-unsplash.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <!-- right/next navigation button -->
+                <div class="fashion-slider-button-prev fashion-slider-button">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+                    <g class="fashion-slider-svg-wrap">
+                      <g class="fashion-slider-svg-circle-wrap">
+                        <circle cx="42" cy="42" r="40"></circle>
+                      </g>
+                      <path
+                        class="fashion-slider-svg-arrow"
+                        d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z"
+                      ></path>
+                      <path class="fashion-slider-svg-line" d="M80,0H0"></path>
+                    </g>
+                  </svg>
+                </div>
+                <!-- left/previous navigation button -->
+                <div class="fashion-slider-button-next fashion-slider-button">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 350 160 90">
+                    <g class="fashion-slider-svg-wrap">
+                      <g class="fashion-slider-svg-circle-wrap">
+                        <circle cx="42" cy="42" r="40"></circle>
+                      </g>
+                      <path
+                        class="fashion-slider-svg-arrow"
+                        d="M.983,6.929,4.447,3.464.983,0,0,.983,2.482,3.464,0,5.946Z"
+                      ></path>
+                      <path class="fashion-slider-svg-line" d="M80,0H0"></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
 
       
     <section class="container">
@@ -595,7 +708,7 @@
 
 
 
-<script src="main.js"></script>
+<script src="main2.js"></script>
  
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
@@ -632,7 +745,7 @@
             items: 2,
           },
           1000: {
-            items: 5,
+            items: 4,
           },
         },
       });

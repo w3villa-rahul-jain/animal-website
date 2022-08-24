@@ -7,6 +7,8 @@
 }
 
 
+
+
 :root{
     --bgColor:  #0E3054;
 }
@@ -279,6 +281,10 @@ li{
     font-size: 32px;
 }
 
+.owl-button{
+    margin: 0px 100px;
+}
+
 .owl-nav {
     position: absolute;
     bottom: -50px;
@@ -296,12 +302,12 @@ li{
 
 .owl-nav-prev {
     position: absolute;
-    left: 0px;
+    left: -40px;
 }
 
 .owl-nav-next {
     position: absolute;
-    right: 0px;
+    right: -40px;
 }
 
 .card-item {
@@ -474,6 +480,10 @@ li{
         border-radius: 10px;
     }
 
+    .owl-button{
+        margin: 0px 30px;
+    }
+
     .nav-brand{
         margin: 15px 0px;
     }
@@ -505,6 +515,13 @@ li{
 
     .footer, .small-footer{
         padding: 12px;
+    }
+    .owl-nav-prev {
+        left: -30px;
+    }
+    
+    .owl-nav-next {
+        right: -30px;
     }
     
    
