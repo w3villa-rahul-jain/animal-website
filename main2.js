@@ -1,4 +1,4 @@
-nav = document.querySelector('.nav');
+nav = document.querySelector('.nav-2');
 toggleBtn = document.querySelector('.toggle-btn');
 
 

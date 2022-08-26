@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+
+      <!-- bootstrap 4  css cdn -->
+       <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <!-- owl carousel -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer"
     />
@@ -19,8 +23,8 @@
 
 <body>
     <!-- navbar start -->
-    <nav class="nav">
-        <div class="nav-brand">
+    <nav class="nav-2">
+        <div class="nav-brand-2">
           <a href="#">
               <img src="./images/rogz_web_logo.svg" alt="" width="100%">
           </a>
@@ -28,17 +32,17 @@
         <button class="toggle-btn" id="toggle">
           <span><i class="fa-solid fa-bars"></i></span>
         </button>
-        <div class="collapse">
-          <ul class="nav-item">
-            <li class="nav-link"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li class="nav-link"><a href="#">Shop</a></li>
-            <li class="nav-link"><a href="#">New</a></li>
-            <li class="nav-link"><a href="#">About</a></li>
-            <li class="nav-link"><a href="#">Size Guide</a></li>
-            <li class="nav-link"><a href="#">Login</a></li>
+        <div>
+          <ul class="nav-items-2">
+            <li class="nav-links-2"><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li class="nav-links-2"><a href="#">Shop</a></li>
+            <li class="nav-links-2"><a href="#">New</a></li>
+            <li class="nav-links-2"><a href="#">About</a></li>
+            <li class="nav-links-2"><a href="#">Size Guide</a></li>
+            <li class="nav-links-2"><a href="#">Login</a></li>
           </ul>
         </div>
-        <div class="social-link collapse">
+        <div class="social-link">
           <a href="#" class="icon"><i class="fa-solid fa-cart-arrow-down"></i></a>
           <a href="#" class="icon"><i class="fa-solid fa-truck-fast"></i></a>
          </div>
@@ -46,13 +50,13 @@
     <!-- navbar end -->
      
     <!-- main section start -->
-    <section class="container">
+    <section class="container-40">
         <div class="main-section">
             <div class="big-image px-12">
                 <img src="./images/banner6.jpg" alt="" width="100%">
                 <div class="image-content">
-                    <h4>The Best quality</h4>
-                    <h1>Products For<br>Your Dog</h1>
+                    <h4 class="font-30 font-smd-16">The Best quality</h4>
+                    <h1 class="font-60 font-smd-24">Products For<br>Your Dog</h1>
                     <p class="banner-para">Good Product made with love</p>
                     <button class="shop-now">Shop Now</button>
                 </div>
@@ -71,7 +75,7 @@
 
     <!-- coming soon section start -->
 
-    <section class="container">
+    <section class="container-40">
         <div class="best-seller pt-100 pb-75">
             <h1 class="heading-style font-smd pb-75">Coming Soon</h1>
             <div class="grid-4">
@@ -148,7 +152,7 @@
 
     <section class="arrivals">
         <h1 class="heading-style font-smd pb-75">All Products</h1>
-        <div class="grid-4 pb-30 container">
+        <div class="grid-4 pb-30 container-40">
             <div class="grid-4-item mr-25 overflow-hide">
                 <div class="image overflow-hide">
                     <img src="./images/products1.jpg" alt="" width="100%"
@@ -203,7 +207,7 @@
             </div>
         </div>
 
-        <div class="grid-4 container pb-75">
+        <div class="grid-4 container-40 pb-75">
             <div class="grid-4-item mr-25 overflow-hide">
             <div class="image overflow-hide">
                 <img src="./images/products4.jpg" alt="" width="100%"
@@ -292,7 +296,7 @@
     <!-- testimonials sections -->
 
 
- <h1 class="heading-style font-smd pb-75">Testimonials</h1>
+ <h1 class="heading-style font-smd pb-50">Testimonials</h1>
     <div class="testimonials">
         <div class="owl-carousel owl-theme font-alata px-30 ptb-30">
             <div class="testimonials-item">
@@ -300,36 +304,38 @@
                     <img src="./images/model-2911329_1920.jpg" alt="" width="100%" class="image-testimonial">
                 </div>
                 <div class="testimonial-test">
-                    <h2 class="testimonials-heading">Good Quality</h2>
-                    <h2 class="py-20">Orane Consulting</h2>
+                    <h2 class="testimonials-heading">Good Quality and best products</h2>
+                    <h2 class="font-20">Orane Consulting</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <button class="testimonial-btn">w3villa</button>
-                </div>
+                    <button class="testimonial-btn">Rick</button>
+                 </div>
             </div>
             <div class="testimonials-item">
                 <div class="testimonial-image">
                     <img src="./images/model-2911329_1920.jpg" alt="" width="100%" class="image-testimonial">
                 </div>
                 <div class="testimonial-test">
-                    <h2 class="testimonials-heading">Good Quality</h2>
-                    <h2 class="py-20">Orane Consulting</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <button class="testimonial-btn">w3villa</button>
-                </div>
+                    <h2 class="testimonials-heading">Good Quality and best products</h2>
+                    <h2 class="font-20">Orane Consulting</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    <button class="testimonial-btn">Rick</button>
+                 </div>
             </div>
             <div class="testimonials-item">
                 <div class="testimonial-image">
                     <img src="./images/model-2911329_1920.jpg" alt="" width="100%" class="image-testimonial">
                 </div>
                 <div class="testimonial-test">
-                    <h2 class="testimonials-heading">Good Quality</h2>
-                    <h2 class="py-20">Orane Consulting</h2>
+                    <h2 class="testimonials-heading">Good Quality and best products</h2>
+                    <h2 class="font-20">Orane Consulting</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-                    <button class="testimonial-btn">w3villa</button>
-                </div>
+                    <button class="testimonial-btn">Rick</button>
+                 </div>
             </div>
+           
         </div>
     </div>
+
 
     <!-- testimonials section end -->
  
@@ -338,7 +344,7 @@
         <p class="footer-para">Rogz. Coolest pet products on Planet Earth. And beyond.</p>
         <div class="footer-social">
             <a href="#" class="icon f-icon"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#" class="icon f-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="icon f-icon"><i class="fa-brands fa-square-instagram"></i></i></a>
             <a href="#" class="icon f-icon"><i class="fa-brands fa-square-twitter"></i></a>
             <a href="#" class="icon f-icon"><i class="fa-brands fa-youtube"></i></a>
         </div>
@@ -356,7 +362,7 @@
 <!-- small footer section start -->
     <section class="small-footer bg-black">
         <p>copyright @2022</p>
-        <p>Made with at W3Villa</p>
+        <p class="my-10">Made with at Rick</p>
         <img src="./images/payment-80b8ba8b675acb4817f73a172b39c57972a13810017dc85117ef352cf7eaeee6.png" alt="" width="100%" class="f-image">
     </section>
 <!-- small footer section end -->
@@ -383,8 +389,8 @@
         margin: 20,
         nav: true,
         dots: true,
-        gap: 30,
-        autoplay: true,
+        gap: 50,
+        // autoplay: true,
         autoplayTimeout: 1000,
         dots: true,
         navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
@@ -404,6 +410,10 @@
         },
       });
     </script>
+      <!-- bootstrap 4 js cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
     
 </body>
 </html>
