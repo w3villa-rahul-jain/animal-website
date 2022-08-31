@@ -2,7 +2,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Alata", sans-serif;
+  /* font-family: "Alata", sans-serif; */
+}
+
+.text-for-test {
+  font-size: 1.4vw;
+  color: #283618;
+  margin-bottom: 0px;
+}
+.special-offer-for-test {
+  font-size: 1.2vw;
+  line-height: 20px;
+  color: purple;
+  margin-bottom: 5px;
+}
+.offer-50-test {
+  font-size: 1.4vw;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.shop-now-2-test,
+.shop-now-2-testing {
+  background: var(--bgColor);
+  padding: 6px 12px;
+  color: white;
+  border: none;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+.text-below-image-test {
+  font-size: 2.2vw;
 }
 
 :root {
@@ -11,6 +42,7 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Alata", sans-serif;
 }
 
 .font-30 {
@@ -207,45 +239,6 @@ a {
 
 /* another main section */
 
-.main-image {
-  border: 1px solid red;
-  height: 600px;
-}
-
-.side-image {
-  border: 1px solid blue;
-  height: 600px;
-}
-
-.main-div {
-  padding-top: 150px;
-}
-
-.main-image {
-  padding: 20px;
-}
-
-.main-text-div,
-.main-image-div {
-  width: 50%;
-}
-
-.main-text-text {
-  font-size: 50px;
-  padding: 30px;
-}
-.shop-now-btn {
-  font-size: 40px;
-  color: white;
-  background: blue;
-  text-decoration: none;
-  padding: 10px 20px;
-  border: none;
-  transform: translateX(50%);
-}
-
-/* another main section */
-
 .main-section {
   padding-top: 100px;
   display: grid;
@@ -258,6 +251,10 @@ a {
   left: 10%;
   font-size: 35px;
   color: white;
+}
+
+.big-image {
+  font-family: "Fredoka One", cursive;
 }
 
 .big-image img {
@@ -274,11 +271,10 @@ a {
 .shop-now {
   margin-top: 30px;
   padding: 12px 24px;
-  font-size: 15px;
-  border-radius: 10px;
+  font-size: 16px;
   outline: none;
   border: none;
-  background: black;
+  background: var(--bgColor);
   color: white;
 }
 
@@ -289,6 +285,7 @@ a {
 
 .position-image {
   position: relative;
+  font-family: "Fredoka One", cursive;
 }
 
 .quality-image {
@@ -305,52 +302,65 @@ a {
 
 .above-image {
   position: relative;
-}
-
-.below-text {
-  position: absolute;
-  /* bottom: 0; */
-  top: 0;
-  font-size: 40px;
-  width: 50%;
-  padding: 16px;
-  /* font-weight: bold; */
-  color: blue;
-  line-height: 35px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .special-offer-text {
   color: red;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .below-image {
   position: relative;
+  text-align: center;
 }
 
 .above-text {
   position: absolute;
-  /* background: red; */
   bottom: 0;
   top: 0;
-  font-size: 34px;
-  width: 50%;
+  font-size: 24px;
+  line-height: 30px;
+  width: 60%;
   padding: 16px;
   color: white;
-  /* font-weight: bold; */
-  /* text-align: center; */
-  line-height: 36px;
+}
+
+.offer-50 {
+  font-size: 40px;
+  color: white;
+}
+.below-image-text {
+  font-size: 40px;
+  width: 50%;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 .shop-now-2 {
   background: var(--bgColor);
-  position: absolute;
-  padding: 10px 20px;
+  padding: 6px 12px;
   color: white;
   border: none;
-  left: 22px;
-  bottom: 20px;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+.ml-10 {
+  margin-left: 20px;
+}
+
+.text-above-image {
+  position: absolute;
+  top: 0;
+  padding: 20px 0px 20px 10px;
+  width: 50%;
+}
+
+.img-above-text {
+  position: absolute;
+  top: 0;
+  border: 1px solid red;
 }
 
 .fa-arrow-right {
@@ -411,52 +421,31 @@ a {
   color: white;
 }
 
-/* coupons section start*/
-/* .coupons {
-  background: var(--bgColor);
-  color: black;
+/* ----------------------------------------------------------------- */
+.image-quality-2-container {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 50%;
+}
+
+.text-below-image {
+  font-size: 30px;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.special-offer-text-2 {
   font-size: 20px;
-  font-weight: bold;
-  color: white;
-  padding: 8px 14px;
-  position: absolute;
-  position: fixed;
-  top: 200px;
-  z-index: 9;
-  right: -100px;
-  outline: none;
-  border-radius: none;
-  border-radius: 10px 0px 0px 10px;
-  transform: rotate(90deg);
+  color: black;
+  line-height: 15px;
 }
 
-.messsage-us {
-  position: absolute;
-  bottom: 0;
-  right: 10px;
-  display: flex;
-}
-
-h4 {
-  margin: none;
-}
-
-.image-area {
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  background: red;
-}
-
-.message-area {
-  width: 300px;
-  padding: 0px 20px;
-  border: 2px solid black;
-  background: white;
-  border-radius: 15px;
-} */
-
-/* coupons section end*/
+/* -------------------------------------------------------------- */
+/* coupons section start*/
 
 /* second shop section start */
 
@@ -672,7 +661,220 @@ h4 {
 
 /* testimonials end */
 
+@media (max-width: 2500px) {
+  .text-below-image {
+    font-size: 50px;
+  }
+  .shop-now-2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 2200px) {
+  .text-below-image {
+    font-size: 40px;
+  }
+  .shop-now-2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1900px) {
+  .text-below-image {
+    font-size: 35px;
+  }
+  .shop-now-2 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .text-below-image {
+    font-size: 30px;
+  }
+  .shop-now-2 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .text-below-image {
+    font-size: 28px;
+  }
+
+  .special-offer-text-2 {
+    font-size: 18px;
+  }
+  .offer-50 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1320px) {
+  .text-below-image {
+    font-size: 24px;
+  }
+  .shop-now-2 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .text-below-image {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .text-below-image {
+    font-size: 18px;
+  }
+
+  .special-offer-text-2 {
+    font-size: 16px;
+    padding-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .font-20-sm {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 991px) {
+  .above-text {
+    font-size: 15px;
+  }
+  .special-offer-text {
+    font-size: 20px;
+  }
+  .offer-50 {
+    font-size: 20px;
+  }
+  .below-text {
+    font-size: 17px;
+  }
+  .shop-now-2 {
+    font-size: 12px;
+  }
+  .text-below-image {
+    font-size: 17px;
+    padding-right: 0px;
+  }
+  .font-20-sm {
+    font-size: 40px;
+  }
+
+  
+  .special-offer-text-2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 20px;
+  }
+  .shop-now-2 {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+}
+
+
+
+
+@media (max-width: 900px) {
+  .text-below-image {
+    font-size: 16px;
+    padding-right: 0px;
+  }
+  
+  .special-offer-text-2 {
+    font-size: 14px;
+    margin-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 14px;
+  }
+
+  .shop-now {
+    margin-top: 10px;
+  }
+  .banner-para {
+    padding-top: 0px;
+  }
+  .font-20-sm {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .text-for-test {
+    font-size: 1.2vw;
+  }
+  .special-offer-for-test {
+    margin-bottom: none;
+  }
+  /* .offer-50-test {
+  } */
+
+  .shop-now-2-test {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 920px) {
+  .text-below-image-test {
+    font-size: 1.8vw;
+  }
+  .special-offer-for-test {
+    font-size: 1.3vw;
+    margin-bottom: 0;
+  }
+  .offer-50-test {
+    font-size: 1.3vw;
+  }
+
+  .shop-now-2-test {
+    font-size: 10px;
+    padding: 3px 6px;
+  }
+}
+
 @media (max-width: 768px) {
+  .text-below-image-test {
+    font-size: 5.6vw;
+    padding-left: 10px;
+  }
+  .shop-now-2-testing {
+    font-size: 2.8vw;
+    padding: 6px 12px;
+  }
+
+  .text-for-test {
+    font-size: 3.8vw;
+  }
+
+  .special-offer-for-test {
+    font-size: 3.6vw;
+    margin-top: 10px;
+  }
+  .offer-50-test {
+    font-size: 4.4vw;
+    margin-top: 10px;
+  }
+
+  .shop-now-2-test {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .special-offer-for-test {
+    font-size: 2.5vw;
+    line-height: 20px;
+  }
   .main-section {
     grid-template-columns: 1fr;
     padding-top: 100px;
@@ -736,7 +938,6 @@ h4 {
     margin-top: 5px;
     padding: 6px 12px;
     font-size: 12px;
-    border-radius: 10px;
   }
 
   .owl-button {
@@ -803,16 +1004,42 @@ h4 {
 
   .above-text {
     font-size: 40px;
-    line-height: 45px;
   }
 
   .below-text {
-    font-size: 50px;
-    line-height: 50px;
+    font-size: 40px;
+  }
+  .text-below-image {
+    font-size: 38px;
+  }
+  
+  .special-offer-text-2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 30px;
+  }
+  .shop-now-2 {
+    font-size: 18px;
+    padding: 8px 16px;
   }
 }
 
 @media (max-width: 600px) {
+  .shop-now-2-test {
+    font-size: 13px;
+    padding: 4px 8px;
+  }
+
+  .special-offer-for-test {
+    margin-top: 0px;
+  }
+  .offer-50-test {
+    font-size: 4.4vw;
+    margin-top: 0px;
+  }
+
   .grid-4 {
     grid-template-columns: 1fr;
   }
@@ -822,30 +1049,165 @@ h4 {
   .font-smd-16 {
     font-size: 16px;
   }
+  .above-text {
+    font-size: 25px;
+  }
+  .offer-50 {
+    font-size: 40px;
+  }
 
   .font-smd-24 {
     font-size: 24px;
     margin-top: 2px;
     margin-bottom: 1px;
   }
-  .above-text,
-  .below-text {
+  .above-text {
     font-size: 20px;
-    line-height: 20px;
+  }
+  .below-text {
+    font-size: 35px;
+  }
+  .text-below-image {
+    font-size: 35px;
+  }
+  
+  .special-offer-text-2 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 25px;
+  }
+  .shop-now-2 {
+    font-size: 18px;
+    padding: 8px 16px;
   }
 }
 
+@media (max-width: 550px) {
+  .text-below-image {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 505px) {
+  .text-below-image {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 475px) {
+  
+  .text-below-image {
+    font-size: 22px;
+  }
+  /* .special-offer-text-2 {
+    font-size: 13px;
+    padding-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+  .font-20-sm {
+    font-size: 40px;
+  } */
+}
 @media (max-width: 425px) {
+  .text-for-test {
+    font-size: 3.2vw;
+  }
+  .special-offer-for-test {
+    font-size: 3.2vw;
+  }
+
+  .text-for-test {
+    font-size: 2.2vw;
+  }
   .font-20-sm {
     font-size: 20px;
   }
-  .above-text,
+
+  .shop-now-2 {
+    font-size: 10px;
+  }
   .below-text {
     font-size: 20px;
-    line-height: 20px;
   }
+
+  .above-text {
+    font-size: 16px;
+  }
+  .offer-50 {
+    font-size: 20px;
+  }
+
   .special-offer-text {
+    font-size: 18px;
+  }
+  .text-below-image {
+    font-size: 20px;
+  }
+  
+  .special-offer-text-2 {
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  .offer-50 {
+    font-size: 20px;
+  }
+  .shop-now-2 {
     font-size: 15px;
-    line-height: 10px;
+    padding: 4px 8px;
+  }
+  .text-above-image {
+    width: 70%;
+  }
+}
+
+@media (max-width: 400px) {
+
+  .font-20-sm{
+    font-size: 16px;
+  }
+  .banner-para{
+    font-size: 13px;
+
+  }
+
+  .shop-now{
+  font-size: 12px;
+  padding: 3px 6px;
+  }
+  .text-below-image-test {
+    font-size: 4.4vw;
+    padding-left: 10px;
+  }
+  .shop-now-2-testing {
+    font-size: 2.8vw;
+    padding: 6px 12px;
+  }
+
+  .text-for-test {
+    font-size: 4vw;
+  }
+
+  .special-offer-for-test {
+    margin-top: 0px;
+    font-size: 5.1vw;
+  }
+  .offer-50-test {
+    font-size: 4.4vw;
+    margin-top: 0;
+  }
+
+  .shop-now-2-test {
+    font-size: 2.4vw;
+    padding: 3px 6px;
+  }
+
+  .special-offer-for-test {
+    font-size: 2.5vw;
+    line-height: 20px;
   }
 }
